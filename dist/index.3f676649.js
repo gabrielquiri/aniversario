@@ -1,0 +1,2 @@
+AOS.init();const dataDoEvento=new Date("dec 25, 2023 19:00:00"),timeStampDoEvento=dataDoEvento.getTime(),contaAsHoras=setInterval((function(){const o=(new Date).getTime(),e=timeStampDoEvento-o,t=864e5,n=36e5,a=Math.floor(e/t),l=Math.floor(e%t/n),c=Math.floor(e%n/6e4),r=Math.floor(e%6e4/1e3);console.log(a),console.log(l),console.log(c),console.log(r),document.getElementById("contador").innerHTML=`${a}d ${l}h ${c}m ${r}s`,e<0&&(clearInterval(contaAsHoras),document.getElementById("contador").innerHTML="Evento expirado")}),1e3);
+//# sourceMappingURL=index.3f676649.js.map
